@@ -19,7 +19,8 @@ print(os.getcwd())
 #make sure we, on GitBash, cd to the parent folder of Resources before using ..
 #Relative reference for filepath
 #We can use os.path.join
-csv_path = os.path.join('..', 'Resources', 'budget_data.csv')
+#csv_path = os.path.join('..', 'Resources', 'budget_data.csv')
+csv_path = "budget_data.csv"
 #OR
 #csv_path = "../Resources/budget_data.csv"
 ###The ".." means from current directory, go up one folder.
