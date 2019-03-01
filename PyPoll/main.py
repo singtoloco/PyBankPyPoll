@@ -17,7 +17,7 @@ with open(csv_path, newline='') as csvfile:
     csvreader = csv.reader(csvfile, delimiter = ",")
     
     csv_header = next(csvreader)
-    print(f"CSV Header: {csv_header}")
+#    print(f"CSV Header: {csv_header}")
     
     voter = []
     county = []
